@@ -21,7 +21,12 @@ sw_up=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_n
 sw_down=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":5,"pressed":false,"doubleclick":false,"script":null)
  ]
 
+[mono]
+
+debugger_agent/wait_timeout=5000
+
 [rendering]
 
+threads/thread_model=2
 quality/filters/msaa=2
 environment/default_environment="res://default_env.tres"
